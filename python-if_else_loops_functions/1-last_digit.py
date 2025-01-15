@@ -11,9 +11,8 @@ if number > 0:
     if last_digit == 0:
         print(f"Last digit of {number} is {last_digit} and is 0")
 else:
-    number = number * -1
-    last_digit = number % 10
+    last_digit = abs(number) % 10
     if last_digit < 6 and last_digit != 0:
-        print(f"Last digit of -{number} is -{last_digit} {less}")
+        print(f"Last digit of {number} is -{last_digit} {less}")
     if last_digit == 0:
-        print(f"Last digit of -{number} is {last_digit} and is 0")
+        print(f"Last digit of {number} is {last_digit} and is 0")
