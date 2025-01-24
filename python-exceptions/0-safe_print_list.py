@@ -6,6 +6,6 @@ def safe_print_list(my_list=[], x=0):
             print(my_list[i], end="")
             printed_count += 1
     except IndexError:
-        pass  # If we go beyond the list length, just stop
-    print()  # New line after printing
+        pass
+    print()
     return printed_count
