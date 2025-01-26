@@ -14,5 +14,5 @@ def roman_to_int(roman_string):
             else:
                 result_int += current_number
     else:
-        decimal_number += current_number
+        result_int += current_number
     return result_int
