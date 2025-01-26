@@ -3,6 +3,8 @@
 say_my_name takes 2 string (or 1 if first name at least is a string)
 and print them
 '''
+
+
 def say_my_name(first_name=None, last_name=""):
     '''
     Prints the first name and last name
