@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 '''
 print_square prints a square with # of size size
 if requirement are not met
