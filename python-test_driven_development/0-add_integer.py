@@ -1,11 +1,15 @@
 #!/usr/bin/python3
 '''
-the file 0-add_integer adds a and b if requirement are met, otherwise raise an error
+the file 0-add_integer adds a and b if requirement are met
+otherwise raise an error
 '''
+
 
 def add_integer(a, b=98):
     '''
-    adds a and b they are int, if they are a float that dont exceed valid range, convert float to int, oherwise raise an error
+    adds a and b they are int
+    if they are a float that dont exceed valid range, convert float to int
+    otherwise raise an error
     '''
     if isinstance(a, float):
         if a != a:
