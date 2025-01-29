@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 '''
-the file contains a class Square
+This file has a class Square
 '''
 
 
 class Square:
-    """Defines the Square"""
+    """define a Square"""
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
         self.position = position
