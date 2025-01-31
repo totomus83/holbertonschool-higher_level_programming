@@ -1,5 +1,11 @@
-# 3-rectangle.py
+#!/usr/bin/python3
+'''
+This file define a class Rectangle
+'''
+
+
 class Rectangle:
+    """Define the class Rectangle"""
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
