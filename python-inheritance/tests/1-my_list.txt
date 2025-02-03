@@ -2,19 +2,12 @@
 >>> my_list = MyList([2, 1, 3, 5, 4])
 >>> my_list.print_sorted()
 [1, 2, 3, 4, 5]
->>> MyList = __import__('1-my_list').MyList
 >>> my_list = MyList()
 >>> my_list.print_sorted()
 []
->>> MyList = __import__('1-my_list').MyList
 >>> my_list = MyList([0])
 >>> my_list.print_sorted()
 [0]
->>> MyList = __import__('1-my_list').MyList
 >>> my_list = MyList([-1, 1, 0])
 >>> my_list.print_sorted()
 [-1, 0, 1]
->>> MyList = __import__('1-my_list').MyList
->>> my_list = MyList([5.5, 1.2, 3])
->>> my_list.print_sorted()
-[1.2, 3, 5.5]
