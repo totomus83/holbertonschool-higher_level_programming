@@ -3,6 +3,14 @@
 >>> my_list.print_sorted()
 [1, 2, 3, 4, 5]
 >>> MyList = __import__('1-my_list').MyList
->>> my_list = MyList([10, 30, 20, 50, 40])
+>>> my_list = MyList()
 >>> my_list.print_sorted()
-[10, 20, 30, 40, 50]
+[]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList([0])
+>>> my_list.print_sorted()
+[0]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList([])
+>>> my_list.print_sorted()
+[]
