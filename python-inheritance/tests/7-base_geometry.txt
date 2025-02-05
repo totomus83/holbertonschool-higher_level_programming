@@ -34,3 +34,15 @@ ValueError: name must be greater than 0
 Traceback (most recent call last):
     ...
 TypeError: none_value must be an integer
+>>> base_geometry.integer_validator("bool_value", True)
+Traceback (most recent call last):
+    ...
+TypeError: bool_value must be an integer
+>>> base_geometry.integer_validator()
+Traceback (most recent call last):
+    ...
+TypeError: None must be an integer
+>>> base_geometry.integer_validator("name")
+Traceback (most recent call last):
+    ...
+TypeError: name must be an integer
