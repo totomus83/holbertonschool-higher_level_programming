@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 '''
-this file contain a class BaseGeometry and a class rectangle
-inheriting from BaseGeometry
+This module contains one class BaseGeometry and inherited class Rectangle
 '''
 
 
 class BaseGeometry:
-    """define BaseGeometry"""
+    """Class for basic geometry calculation"""
+
     def area(self):
         raise Exception("area() is not implemented")
 
@@ -20,7 +20,8 @@ class BaseGeometry:
 
 
 class Rectangle(BaseGeometry):
-    """define subclass Rectangle who inherits from BaseGeometry"""
+    """Inhereted class of BaseGeometry"""
+
     def __init__(self, width, height):
         super().integer_validator("width", width)
         super().integer_validator("height", height)
@@ -28,7 +29,7 @@ class Rectangle(BaseGeometry):
         self.__height = height
 
     def area(self):
-        return self.__height * self.__width
+        return self.__width * self.__height
 
-    def str(self):
+    def __str__(self):
         return f"[Rectangle] {self.__width}/{self.__height}"
