@@ -2,6 +2,7 @@
 import logging
 import os
 
+
 def generate_invitations(template, attendees):
     if not isinstance(template, str):
         logging.error("Template must be a string")
